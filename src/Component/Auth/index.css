@@ -1,0 +1,22 @@
+.auth{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+}
+
+.row{
+   display: flex;
+    margin-top: 3%;
+    padding:50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 275px;
+    
+}

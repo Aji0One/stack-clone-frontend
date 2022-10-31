@@ -20,7 +20,7 @@ function Index(){
 
             }
             else{
-            await axios.get("http://localhost:3001/question/get", {
+            await axios.get("https://webcode-stackclone.herokuapp.com/question/get", {
                 headers: {
                     accesstoken: localStorage.getItem("token"),
                 },

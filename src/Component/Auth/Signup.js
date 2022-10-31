@@ -47,7 +47,7 @@ function Signup() {
         
         //console.log(formData);
         
-        const response= await axios.post("http://localhost:3001/register/signup",{...formData});
+        const response= await axios.post("https://webcode-stackclone.herokuapp.com/register/signup",{...formData});
         if(response.data){
            localStorage.setItem("token",response.data);
             console.log(response);

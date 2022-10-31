@@ -52,7 +52,7 @@ var dateTime = date+' '+time;
 
             }
             else{
-            await axios.post("http://localhost:3001/question/create",{
+            await axios.post("https://webcode-stackclone.herokuapp.com/question/create",{
                 question:{
                 
                     title:bodyJSON.title,

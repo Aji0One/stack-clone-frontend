@@ -30,7 +30,7 @@ function MainQuestion() {
 
             }
             else{
-            await axios.get(`http://localhost:3001/question/get/${id}`,{
+            await axios.get(`https://webcode-stackclone.herokuapp.com/question/get/${id}`,{
                 headers: {
                     accesstoken: localStorage.getItem("token"),
                 }

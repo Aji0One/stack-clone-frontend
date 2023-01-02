@@ -20,7 +20,7 @@ function Index(){
 
             }
             else{
-            await axios.get("https://webcode-stackclone.herokuapp.com/question/get", {
+            await axios.get("https://stackoverflow-clone-kxvr.onrender.com/question/get", {
                 headers: {
                     accesstoken: localStorage.getItem("token"),
                 },

@@ -30,7 +30,7 @@ function MainQuestion() {
 
             }
             else{
-            await axios.get(`https://webcode-stackclone.herokuapp.com/question/get/${id}`,{
+            await axios.get(`https://stackoverflow-clone-kxvr.onrender.com/question/get/${id}`,{
                 headers: {
                     accesstoken: localStorage.getItem("token"),
                 }

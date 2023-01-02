@@ -25,7 +25,7 @@ function Index() {
 
         //console.log(formData);
 
-        const response = await axios.post("https://webcode-stackclone.herokuapp.com/register/signin", { ...formData });
+        const response = await axios.post("https://stackoverflow-clone-kxvr.onrender.com/register/signin", { ...formData });
         if (response.data) {
             localStorage.setItem("token", response.data);
             //console.log(response);
